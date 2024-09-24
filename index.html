@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!---->
+<html>
+<head>
+    <title>KFC Reservation</title> <!--title-->
+</head>
+<body style="background-image: url('kfc2.png');"> <!--Background image-->
+    <h1 style="text-align: center; background-color: red;">Registration Form</h1> <!--Header-->
+    <img src="kfc.png" align="right" alt="kfc image"> <!--kfc image-->
+    <div style="background-color: yellow;">
+        <h3>Please fill in your information here</h3> <!--Instruction-->
+    <form a href="action_page.php" method="GET"> <!--Registration Form-->
+        <label for="fname">First Name: </label> <!--Customer's First Name-->
+        <input type="text" name="fname" placeholder="First Name">
+            <br>
+        <label for="lname">Last Name: </label> <!--Customer's Last Name-->
+        <input type="text" name="lname" placeholder="Last Name">
+            <br>
+        <label for="number">Phone Number: </label> <!--Customer's Phone Number-->
+        <input type="tel" name="number" placeholder="Phone Number">
+            <br>
+        <label for="email">Email: </label> <!--Customer's Email-->
+        <input type="email" name="email" placeholder="Email">
+            <br>
+        <label for="resdate">Reservation Date: </label> <!--Reservation Date-->
+        <input type="date" name="resdate">
+            <br>
+        <label for="restime">Reservation Time: </label> <!--Reservation Time-->
+        <input type="time" name="restime">
+            <br>
+        <input type="reset"> <!--Reset Button-->
+        <input type="submit"> <!--Submit Button-->
+
+    </form>
+    </div>
+        <br>
+    <center>
+    <h2 style="background-color: white;">Menu</h2> <!--Menu Header-->
+    <table bgcolor="black" style="width: 90%; text-align: center;"> <!--Menu Table-->
+        <tr bgcolor="red" style="height: 50px;">
+            <th colspan="2">Food</th>
+            <th colspan="2">Drinks</th>
+        </tr>
+        <tr bgcolor="yellow" style="height: 50px;">
+            <th>Fried</th>
+            <th>Soup</th>
+            <th>Soda</th>
+            <th>Non-soda</th>
+        </tr>
+        <tr bgcolor="white" style="height: 50px;">
+            <td colspan="2">Chicken</td>
+            <td>Cocacola</td>
+            <td rowspan="2">Milo</td>
+        </tr>
+        <tr bgcolor="white" style="height: 50px;">
+            <td>French Fries</td>
+            <td>Cream</td>
+            <td>Fanta</td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
